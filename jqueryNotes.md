@@ -54,7 +54,7 @@ $("#destinations > li")
 
 ### CSS-like pseudo classes
 ``` javascript
- $("#destinations li:first");
+$("#destinations li:first");
 $("#destinations li:last" );
 $("#destinations li:odd");
 $("#destinations li:even");
@@ -76,7 +76,6 @@ This selects the last `li`.
  $(".vacation").last();
 ```
 ### Using `prev()`
-
 This is used to navigate to the previous element. It is added on after `.last()` so it will select the previous `li` element.
 ``` javascript
 $("#vacations li").last().prev();
