@@ -29,27 +29,21 @@ $('h1').text()
  ```
 
 ### Target elements by class
-
 ``` javascript
 $(".articles")
 ```
-
 ## Searching the DOM
 
 ### Select *ALL* the ``li`` element with in ``#destinations``
-
 ``` javascript
 $("#destinations li")
 ```
-
 ### Select *ONLY* the *direct* children
-
 ``` javascript
 $("#destinations > li")
 ```
 
 ## Selecting *multiple* elements using a coma
-
 ``$(".promo, #france")``
 
 ### CSS-like pseudo classes
@@ -89,4 +83,3 @@ $(".class").parent("li");
 this selects all children `li` of the selected `#id`
 ``` javascript
 $("#id").children("li");
-```
